@@ -1,3 +1,6 @@
+#ifndef PASS_MANAGER_H
+#define PASS_MANAGER_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -16,3 +19,5 @@ typedef	struct	user
 
 int		create_file(user *user);
 
+
+#endif // !PASS_MANAGER_H
