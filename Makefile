@@ -10,7 +10,6 @@ HEADER = ./includes/pass_manager.h
 
 OBJECT = $(FILES:.c=.o)
 
-
 all: $(NAME)
 
 $(NAME): $(OBJECT) $(HEADER)
